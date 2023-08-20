@@ -21,7 +21,9 @@ return new class extends Migration
             $table->string('birthplace')->nullable();
             $table->string('img_path')->nullable();
             $table->longText('description');
-            $table->timestamps();
+            // 'timestamp'に現在時刻をデフォルトを設定するuseCurrent()。
+            $table->timestamp('created_at')->useCurrent()->nullable();
+            $table->timestamp('updated_at')->useCurrent()->nullable();
         });
     }
 

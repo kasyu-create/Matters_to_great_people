@@ -12,17 +12,17 @@ class GenreTableSeeder extends Seeder
      */
     public function run(): void
     {
-        　DB::table('genre')->insert([
+        \DB::table('genre')->insert([
             [
-              'name'=> '野球',
+              'name' => '野球',
             ],[
-              'name'=> 'サッカー',
+              'name' => 'サッカー',
             ],[
-              'name'=> '歴史人物',
+              'name' => '歴史人物',
             ],[
-              'name'=> '戦争',
+              'name' => '戦争',
             ],[
-              'name'=> '事件',
+              'name' => '事件',
             ],
             ]);
     }
