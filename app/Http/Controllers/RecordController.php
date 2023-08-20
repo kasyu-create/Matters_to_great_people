@@ -3,11 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Record;
 
 class RecordController extends Controller
 {
     public function index(){
-        return view('record.index');
+      $record = new Record;
+      $records = $record->index();
+      \Log::info($records);
+        return view('record.index', $record);
       }
     public function about(){
         return view('record.about');
