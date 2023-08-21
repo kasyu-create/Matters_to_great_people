@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Record;
+use App\Models\Genre;
 
 class RecordController extends Controller
 {
     public function index(){
       $record = new Record;
       $records = $record->index();
-      \Log::info($records);
-        return view('record.index', $record);
+      return view('record.index', $records);
       }
     public function about(){
         return view('record.about');
@@ -20,7 +20,11 @@ class RecordController extends Controller
       return view('record.contact');
     }
     public function portfolio(){
-      return view('record.portfolio');
+      $genre = new Genre;
+      $genres = $genre->index();
+      return view('record.portfolio', [
+        'genres' => $genres,
+    ]);
     }
     public function work(){
       return view('record.work');
