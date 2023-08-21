@@ -45,16 +45,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href=/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -69,7 +69,7 @@
     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
       <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-        <h1 id="fh5co-logo"><a href="/"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
+        <h1 id="fh5co-logo"><a href="/"><img src="/images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
         <nav id="fh5co-main-menu" role="navigation">
           <ul>
             <li class="fh5co-active"><a href="/">トップページ</a></li>

@@ -7,7 +7,7 @@
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 				@foreach ($genres as $genre)
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
-						<a>
+						<a href ="/show/{{$genre->id}}">
 							<img src="images/genre/{{$genre->img_path}}" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">{{$genre->name}}</h3>
 						</a>
@@ -18,7 +18,7 @@
 			</div>
 		
 
-			<div class="fh5co-narrow-content">
+			<!-- <div class="fh5co-narrow-content">
 				<div class="row">
 					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 						<h1 class="fh5co-heading-colored">Start Your Project Now!</h1>
@@ -40,7 +40,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 @endsection

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RecordController;
+use App\Http\Controllers\GenreController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,14 +18,12 @@ use App\Http\Controllers\RecordController;
 //     return view('welcome');
 // });
 
+
 Route::get('/', [RecordController::class, 'index']);
 Route::get('/about', [RecordController::class, 'about']);
 Route::get('/contact', [RecordController::class, 'contact']);
 Route::get('/portfolio', [RecordController::class, 'portfolio']);
 Route::get('/work', [RecordController::class, 'work']);
-
-//Route::get('/','RecordController@index');
-// Route::get('/about','RecordController@about');
-// Route::get('/contact','RecordController@contact');
-// Route::get('/portfolio','RecordController@portfolio');
-// Route::get('/work','RecordController@work');
+Route::get('/create', [GenreController::class, 'create']);
+Route::get('/show/{id}', [GenreController::class, 'show']);
+// Route::resource('genre', [GenreController::class]);
