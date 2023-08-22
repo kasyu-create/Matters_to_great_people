@@ -24,6 +24,8 @@ Route::get('/about', [RecordController::class, 'about']);
 Route::get('/contact', [RecordController::class, 'contact']);
 Route::get('/portfolio', [RecordController::class, 'portfolio']);
 Route::get('/work', [RecordController::class, 'work']);
+
 Route::get('/create', [GenreController::class, 'create']);
 Route::get('/show/{id}', [GenreController::class, 'show']);
+Route::post('/store', [GenreController::class, 'store']);
 // Route::resource('genre', [GenreController::class]);
