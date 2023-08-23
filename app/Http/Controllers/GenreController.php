@@ -40,4 +40,20 @@ class GenreController extends Controller
         
         return redirect('/portfolio');
     }
+
+    public function edit($id){
+        $genre = Genre::find($id);
+
+        return view('genre.edit', [
+            'genre' => $genre]
+        );
+    }
+
+    public function destroy($id){
+        $genre = Genre::find($id);
+        \Log::info($genre);
+        $genre->delete();
+        \Log::info($genre);
+        return redirect('/portfolio');
+    }
 }

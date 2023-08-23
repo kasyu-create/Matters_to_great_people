@@ -28,4 +28,5 @@ Route::get('/work', [RecordController::class, 'work']);
 Route::get('/create', [GenreController::class, 'create']);
 Route::get('/show/{id}', [GenreController::class, 'show']);
 Route::post('/store', [GenreController::class, 'store']);
-// Route::resource('genre', [GenreController::class]);
+Route::get('/edit/{id}', [GenreController::class, 'edit']);
+Route::post('/destroy/{id}', [GenreController::class, 'destroy']);
