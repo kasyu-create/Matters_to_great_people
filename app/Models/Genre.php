@@ -23,9 +23,9 @@ class Genre extends Model
       return $genres;
     }
 
-    public function store($request)
+    public function show($id)
     {
-      // $genres = \DB::insert('select * from genre');
+      $genres = \DB::table('genre')->where('genre.id', $id)->get();
       return $genres;
     }
 }

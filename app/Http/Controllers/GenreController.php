@@ -11,8 +11,13 @@ class GenreController extends Controller
     public function create(){
         return view('genre.create');
     }
-    public function show(){
-        return view('genre.show');
+    public function show($id){
+
+        $genre = new Genre;
+        $genres = $genre->show($id);
+        return view('genre.show', [
+            'genres' => $genres,
+        ]);
     }
 
     public function store(Request $request){
@@ -30,9 +35,9 @@ class GenreController extends Controller
 
         $genre->name = $request->name;
         $genre->img_path = $file_name;
+        $genre->description = $request->description;
         $genre->save();
         
         return redirect('/portfolio');
-    
     }
 }

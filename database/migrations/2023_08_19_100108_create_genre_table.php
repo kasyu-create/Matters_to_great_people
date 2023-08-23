@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('img_path')->nullable();
+            $table->longText('description')->nullable();
             // 'timestamp'に現在時刻をデフォルトを設定するuseCurrent()。
             $table->timestamp('created_at')->useCurrent()->nullable();
             $table->timestamp('updated_at')->useCurrent()->nullable();
