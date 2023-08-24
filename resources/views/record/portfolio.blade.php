@@ -8,7 +8,7 @@
 				@foreach ($genres as $genre)
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href ="/show/{{$genre->id}}">
-							<img src="{{ asset('/storage/app/'.$genre->img_path) }}" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="{{ asset('/storage/app/'.$genre->img_path) }}" alt="" class="img-responsive">
 							<h3 class="fh5co-work-title">{{$genre->name}}</h3>
 						</a>
 					</div>

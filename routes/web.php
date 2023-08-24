@@ -30,3 +30,4 @@ Route::get('/show/{id}', [GenreController::class, 'show']);
 Route::post('/store', [GenreController::class, 'store']);
 Route::get('/edit/{id}', [GenreController::class, 'edit']);
 Route::post('/destroy/{id}', [GenreController::class, 'destroy']);
+Route::post('/update/{id}', [GenreController::class, 'update']);

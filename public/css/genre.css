@@ -8,7 +8,7 @@
   float: left;
   width: 100%;
   max-width: 100%;
-  border: none;
+  /* border: none; */
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
@@ -61,4 +61,8 @@ div.flex-show{
   font-size: 35px;
   margin-left: 200px;
   margin-top: 10px;
+}
+
+.edit-genre-h2{
+  font-size: 50px;
 }

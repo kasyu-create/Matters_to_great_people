@@ -14,7 +14,7 @@
                 </form>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 flex-show">
-                <img src="{{ asset('/storage/app/'.$genre->img_path) }}" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive img-show">
+                <img src="{{ asset('/storage/app/'.$genre->img_path) }}" alt="" class="img-responsive img-show">
                 <h3 class="description-show">{!! nl2br(e($genre->description)) !!}</h3>
             </div>
             <div class="clearfix visible-md-block"></div>
