@@ -117,6 +117,8 @@
 <!-- Counters -->
 <script src="js/jquery.countTo.js"></script>
 <!-- Google Map -->
+<script src="{{ asset('/js/map.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key={{ ENV }}&callback=initMap" async defer></script>
 
 <!-- MAIN JS -->
 <script src="js/main.js"></script>
