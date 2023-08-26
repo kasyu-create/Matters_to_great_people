@@ -4,6 +4,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,14 +57,21 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/genre.css">
+	<link rel="stylesheet" href="/css/map.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="public/js/app.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+    <!-- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- Fonts -->
+    <!-- <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> -->
 
+    <!-- @vite(['public/js/app.js']) -->
 	</head>
 	<body>
 	<div id="content">
@@ -76,7 +84,7 @@
             <li class="fh5co-active"><a href="/">トップページ</a></li>
             <li><a href="/portfolio">各ジャンル</a></li>
             <li><a href="/about">私について</a></li>
-            <li><a href="/contact">連絡先</a></li>
+            <li><a href="/contact">住所</a></li>
           </ul>
         </nav>
 
@@ -109,8 +117,10 @@
 <!-- Counters -->
 <script src="js/jquery.countTo.js"></script>
 <!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-<script src="js/google_map.js"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+<script src="js/google_map.js"></script> -->
+<script src="{{ asset('/js/map.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyCb26DaUqMyg0mXBJAZ2LQKHKba1HKYPC0&callback=initMap" async defer></script>
 
 <!-- MAIN JS -->
 <script src="js/main.js"></script>
