@@ -5,23 +5,29 @@
 			<div class="fh5co-narrow-content">
 				<div class="row">
 					<div class="col-md-5">
-						<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">About Us Nitro <span>A Web Studio</span></h2>
-						<p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						<p class="animate-box" data-animate-effect="fadeInLeft"> Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+						<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">私について <span>エンジニアとして</span></h2>
+						<p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">東野　陽生（ひがしの　はるき）
+							1995年5月21日生まれ (28歳)<br>
+							大阪府堺市出身<br>
+							</p>
+						<p class="animate-box" data-animate-effect="fadeInLeft">株式会社ゼロイチにてバックエンドエンジニアとして２年以上働いていました。<br>
+							会社に常駐しながら受託会社として保守運用をメインに業務をしていました。<br>
+							会社ではPHPを使ったバックエンド処理やデータ周りを扱う事も多かったのでSQLを使ったデータの抽出や管理が多かったです。<br>
+							チームの規模としては会社のバックエンドエンジニアは４人チームで、Gitを使ってコード管理を行なっていました。</p>
 					</div>
 					<div class="col-md-6 col-md-push-1 animate-box" data-animate-effect="fadeInLeft">
-						<img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"> 
+						<img src="images/IMG_3770.JPG" alt="Free HTML5 Bootstrap Template" class="img-responsive"> 
 					</div>
 				</div>
 				
 			</div>
 
 			<div class="fh5co-narrow-content  animate-box" data-animate-effect="fadeInLeft">
-				<h2 class="fh5co-heading" >The Team</span></h2>
+				<h2 class="fh5co-heading" >携わった主なプロジェクト</span></h2>
 
 				<div class="row">
 					<div class="col-md-4 fh5co-staff">
-						<img src="images/person3.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+						<img src="images/IMG_3777.png" alt="Free HTML5 Bootstrap Template" class="img-responsive" style="height: 250px;">
 						<h3>Athan Smith</h3>
 						<h4>Co-Founder, CEO</h4>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
@@ -34,7 +40,7 @@
 						</ul>
 					</div>
 					<div class="col-md-4 fh5co-staff">
-						<img src="images/person2.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+						<img src="images/IMG_3778.png" alt="Free HTML5 Bootstrap Template" class="img-responsive" style="height: 250px;">
 						<h3>Nathalie Kosley</h3>
 						<h4>Co-Founder, CTO</h4>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
@@ -47,7 +53,7 @@
 						</ul>
 					</div>
 					<div class="col-md-4 fh5co-staff">
-						<img src="images/person4.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+						<img src="images/IMG_3779.png" alt="Free HTML5 Bootstrap Template" class="img-responsive" style="height: 250px;">
 						<h3>Yanna Kuzuki</h3>
 						<h4>Co-Founder, Principal</h4>
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
