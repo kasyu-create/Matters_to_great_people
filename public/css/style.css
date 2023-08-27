@@ -640,6 +640,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-staff img {
   margin-bottom: 1em;
+  flex-basis: 100%;
 }
 .fh5co-staff h3 {
   margin: 0;
