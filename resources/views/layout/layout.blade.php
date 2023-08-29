@@ -58,6 +58,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/genre.css">
 	<link rel="stylesheet" href="/css/map.css">
+	<link rel="stylesheet" href="css/style_portfolio.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -118,10 +119,12 @@
 <script src="js/jquery.countTo.js"></script>
 <!-- Google Map -->
 <script src="{{ asset('/js/map.js') }}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key={{ ENV }}&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyAvg9lFBwHn1jqDkPg6j7EkWLkEKYANq-k&callback=initMap" async defer></script>
 
 <!-- MAIN JS -->
 <script src="js/main.js"></script>
+
+
 
 </body>
 </html>
