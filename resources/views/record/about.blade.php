@@ -89,19 +89,18 @@
 								<i class="icon-strategy"></i>
 							</div>
 							<div class="fh5co-text">
-								<h3>大学時代</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+								<h3>大学時代（2014~2018）</h3>
+								<p>お笑いに明け暮れ、３年の時に部長となり、落語の全国大会ではトップ10の成績に入りました。
+								   学内での公演のみならず、京都を中心に大阪・滋賀など関西圏で出張公演も部で行っていました。
+								   年間150件〜200件の出張公演の依頼を頂き、京都新聞にも取り上げて頂きました。</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-							<div class="fh5co-icon">
-								<i class="icon-telescope"></i>
-							</div>
 							<div class="fh5co-text">
-								<h3>町役場時代</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+								<h3>取り上げて頂いた当時の京都新聞</h3>
+								<img src="images/IMG_3773.PNG" alt="Free HTML5 Bootstrap Template" class="img-responsive-me">
 							</div>
 						</div>
 					</div>
@@ -109,11 +108,36 @@
 					<div class="col-md-6">
 						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
 							<div class="fh5co-icon">
+								<i class="icon-telescope"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>町役場時代(2018~2022)</h3>
+								<p>「無駄なプライドがなく、メンタル強そう」 という理由でタスクが同期の中で一番多い教育委員会に配属されました。
+									タスクが多い中、町施設の貸し出し及び管理を紙の台帳から、データで管理するようにし、外部からもチェック可能に仕様を変更しました。
+									結果、使用者にとっても利用が楽になったと意見を頂き、タスクを減らす事にも成功しました。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-text">
+								<h3>プログラミング独学時の仲間たち</h3>
+							</div>
+							<img src="images/ohurain.png" alt="Free HTML5 Bootstrap Template" class="img-responsive-me" style="margin-left:88px;">
+						</div>
+					</div>
+
+
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
 								<i class="icon-tools-2"></i>
 							</div>
 							<div class="fh5co-text">
-								<h3>エンジニア時代</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+								<h3>エンジニア時代(2020~2022)</h3>
+								<p>株式会社ゼロイチにてバックエンドエンジニアとして２年以上働いていました。会社に常駐しながら受託会社として保守運用をメインに業務をしていました。
+								   会社ではPHPを使ったバックエンド処理やデータ周りを扱う事も多かったのでSQLを使ったデータの抽出や管理が多かったです。
+								   チームの規模としては会社のバックエンドエンジニアは４人チームで、Gitを使ってコード管理を行なっていました。</p>
 							</div>
 						</div>
 					</div>
@@ -123,8 +147,12 @@
 								<i class="icon-circle-compass"></i>
 							</div>
 							<div class="fh5co-text">
-								<h3>Youtuber時代</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+								<h3>Youtuber時代(2023)</h3>
+								<p>周りが弱く自分でもいけるのではと思ったのでYoutubeに一本化しました。
+								   Youtubeのチャンネル登録者が半年で2.2万人
+								   Tiktokのフォロワーが1年で1.8万人を達成しました。 
+								   しかし、目標していたYoutuberとして会社員時代の給料を超える事が出来なかったので、
+								   エンジニアとして再び働く事にしました。</p>
 							</div>
 						</div>
 					</div>
