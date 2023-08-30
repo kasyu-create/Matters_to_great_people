@@ -113,8 +113,8 @@
 							<div class="fh5co-text">
 								<h3>町役場時代(2018~2022)</h3>
 								<p>「無駄なプライドがなく、メンタル強そう」 という理由でタスクが同期の中で一番多い教育委員会に配属されました。
-									タスクが多い中、町施設の貸し出し及び管理を紙の台帳から、データで管理するようにし、外部からもチェック可能に仕様を変更しました。
-									結果、使用者にとっても利用が楽になったと意見を頂き、タスクを減らす事にも成功しました。</p>
+									町施設の貸し出し及び管理を紙の台帳をデータで管理するようにし、外部からもチェック可能に変更しました。
+									使用者も利用が楽になったと意見を頂き、タスク減少に成功しました。</p>
 							</div>
 						</div>
 					</div>
@@ -135,12 +135,21 @@
 							</div>
 							<div class="fh5co-text">
 								<h3>エンジニア時代(2020~2022)</h3>
-								<p>株式会社ゼロイチにてバックエンドエンジニアとして２年以上働いていました。会社に常駐しながら受託会社として保守運用をメインに業務をしていました。
-								   会社ではPHPを使ったバックエンド処理やデータ周りを扱う事も多かったのでSQLを使ったデータの抽出や管理が多かったです。
-								   チームの規模としては会社のバックエンドエンジニアは４人チームで、Gitを使ってコード管理を行なっていました。</p>
+								<p>前職ではバックエンドエンジニアとして２年以上働き、会社に常駐し保守運用をメインに業務をしていました。
+								   会社ではPHPを使ったバックエンド処理やデータ周りを扱う事も多かったのでSQLを使ったデータの抽出や管理が多く、
+								   Gitを使ってコード管理を行なっていました。</p>
 							</div>
 						</div>
 					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-text">
+								<h3>前職時代（１番手前です）</h3>
+							</div>
+							<img src="images/IMG_3774.jpeg" alt="Free HTML5 Bootstrap Template" class="img-responsive-me" style="margin-left:88px;">
+						</div>
+					</div>
+
 					<div class="col-md-6">
 						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
 							<div class="fh5co-icon">
@@ -154,6 +163,14 @@
 								   しかし、目標していたYoutuberとして会社員時代の給料を超える事が出来なかったので、
 								   エンジニアとして再び働く事にしました。</p>
 							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-text">
+								<h3>Youtubeのアイコン</h3>
+							</div>
+							<img src="images/IMG_3776.png" alt="Free HTML5 Bootstrap Template" class="img-responsive-me" style="margin-left:88px;">
 						</div>
 					</div>
 
