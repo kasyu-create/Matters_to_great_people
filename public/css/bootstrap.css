@@ -372,6 +372,13 @@ img {
   width: 300px;
 }
 
+.img-responsive-me{
+  display: block;
+  max-width: 100%;
+  height: 300px;
+  width: 300px;
+}
+
 .img-rounded {
   border-radius: 6px;
 }

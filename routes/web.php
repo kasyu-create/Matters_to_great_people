@@ -1,8 +1,8 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\RecordController;
-use App\Http\Controllers\GenreController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,20 +14,18 @@ use App\Http\Controllers\GenreController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/', [RecordController::class, 'index']);
-Route::get('/about', [RecordController::class, 'about']);
-Route::get('/contact', [RecordController::class, 'contact']);
-Route::get('/portfolio', [RecordController::class, 'portfolio']);
-Route::get('/work', [RecordController::class, 'work']);
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
 
-Route::get('/create', [GenreController::class, 'create']);
-Route::get('/show/{id}', [GenreController::class, 'show']);
-Route::post('/store', [GenreController::class, 'store']);
-Route::get('/edit/{id}', [GenreController::class, 'edit']);
-Route::post('/destroy/{id}', [GenreController::class, 'destroy']);
-Route::post('/update/{id}', [GenreController::class, 'update']);
+require __DIR__.'/auth.php';
