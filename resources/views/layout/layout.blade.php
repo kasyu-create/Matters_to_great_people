@@ -119,7 +119,7 @@
 <script src="js/jquery.countTo.js"></script>
 <!-- Google Map -->
 <script src="{{ asset('/js/map.js') }}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyAvg9lFBwHn1jqDkPg6j7EkWLkEKYANq-k&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyCO0-lDLRLAavMddoQZI7FW6XxY-A4Pv34&callback=initMap" async defer></script>
 
 <!-- MAIN JS -->
 <script src="js/main.js"></script>
