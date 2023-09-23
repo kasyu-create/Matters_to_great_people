@@ -1,0 +1,31 @@
+version: '3.1'
+
+services:
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: qwestion1
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: higashino
+      MYSQL_PASSWORD: qwestion1
+    ports:
+      - "3306:3306"  # <-- Add this line to bind port 3306 on the host to port 3306 on the container
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - 8080:80
+    depends_on:
+      - mysql
+
+  webserver:
+    image: php:8.1-apache
+    volumes:
+      # - .:/var/www
+      - /Users/higashinoharuki/Desktop/Matters_to_great_people:/var/www/html
+      - ./my-apache-config.conf:/etc/apache2/sites-available/000-default.conf
+    ports:
+      - 8000:80
